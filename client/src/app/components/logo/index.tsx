@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 
-import PlaneLogoImg from "../../../assets/plane-logo.png";
+import PlaneLogoImg from "../../../assets/images/plane-logo.png";
 
 const LogoContainer = styled.div`
   ${tw`
@@ -37,7 +37,7 @@ export function Logo() {
       <Image>
         <img src={PlaneLogoImg} />
       </Image>
-      <LogoText>CalgaryAero</LogoText>
+      <LogoText>YYC-Aero</LogoText>
     </LogoContainer>
   ) 
 }

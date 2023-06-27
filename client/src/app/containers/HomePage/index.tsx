@@ -3,6 +3,9 @@ import styled from "styled-components"
 import tw from "twin.macro";
 import { Navbar } from "../../components/navbar";
 
+import { TopSection } from "./topSection";
+import { BookCard } from "../../components/bookCard";
+
 const PageContainer = styled.div`
 	${tw`
 		flex
@@ -17,7 +20,9 @@ const PageContainer = styled.div`
 export function HomePage() {
     return (
 			<PageContainer>
-					<Navbar />
+				<Navbar />
+				<TopSection />
+				<BookCard />
 			</PageContainer>
 		)
 }
