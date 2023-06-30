@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 
-import MclarenCarImg from "../../../assets/images/jet-flight.png";
+import TopSectionJetImg from "../../../assets/images/jet-flight.png";
 import BlobImg from "../../../assets/images/blob.svg";
 import { SCREENS } from "../../components/responsive";
 import { Button } from "../../components/button";
@@ -167,7 +167,7 @@ export function TopSection() {
           <img src={BlobImg} />
         </BlobContainer>
         <StandalonePlane>
-          <img src={MclarenCarImg} />
+          <img src={TopSectionJetImg} />
         </StandalonePlane>
       </RightContainer>
     </TopSectionContainer>
